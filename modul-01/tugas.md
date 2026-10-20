@@ -1,0 +1,5 @@
+# TUGAS
+- Tentukan studi kasus yang ingin diselesaikan dengan pendekatan Pemrograman Bergerak
+  ### Jawab: Saya ingin menyelesaikan masalah pencatatan pengeluaran pada peternakan lele milik bapak saya. Bapak tidak teliti mencatat tiap pengeluaran entah untuk pakan, bibit, alat, maupun obat lele. Beliau menghitung laba hanya dengan mengurangi pendapatan panen dikurangi dengan total karung sak yang terkumpul selama 1 periode panen. Metode tersebut memiliki banyak kelemahan sehingga saya ingin membuat aplikasi yang mudah digunakan Bapak untuk mencatat pengeluaran.
+- Buat proyek baru sesuai dengan studi kasus yang diangkat
+  ### Jawab: Aplikasi Pencatatan Kas Ternak Lele menggunakan API LLM untuk memroses kalimat umum pada ternak lele. misal "Beli pakan 1 sak harga 400 ribu", API LLM akan mengekstrak kalimat tersebut menjadi struktur JSON yang otomatis mendeteksi pengeluaran maupun pendapatan kas.
