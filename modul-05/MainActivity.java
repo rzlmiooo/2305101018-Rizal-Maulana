@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    Button btnOpenSecond, btnOpenBrowser;
+    Button btnOpenSecond, btnOpenBrowser, btnCircleArea;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +31,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.unipma.ac.id"));
+                startActivity(intent);
+            }
+        });
+
+        btnCircleArea = findViewById(R.id.btnCircleArea);
+
+        btnCircleArea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CircleAreaActivity.class);
                 startActivity(intent);
             }
         });
